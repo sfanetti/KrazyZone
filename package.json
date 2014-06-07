@@ -1,0 +1,34 @@
+{
+  "name": "KrazeyZone",
+  "version": "0.0.1",
+  "description": "Krazey Zone Obstacle Course Parties is the site for krazeyzone.com.  The site allows you to schedule and order obstacle course parties and other really cool stuff.",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sfanetti/krazyzone"
+  },
+  "keywords": [
+    "Obstacle",
+    "Course",
+    "Parties",
+    "cool",
+    "fun",
+    "run"
+  ],
+  "author": "David Wiggins and Scott Fanetti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sfanetti/krazyzone/issues"
+  },
+  "homepage": "https://github.com/sfanetti/krazyzone",
+  "dependencies": {
+    "express": "^4.4.1",
+    "logfmt": "^1.1.2"
+  },
+  "engines": {
+    "node": "0.10.28"
+  }
+}

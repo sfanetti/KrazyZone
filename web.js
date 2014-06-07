@@ -6,7 +6,7 @@ var app = express();
 app.use(logfmt.requestLogger());
 
 app.get('/', function(req, res) {
-  res.send('Krazey Zone - Coming Soon!');
+  res.send("Krazey Zone - Coming Soon!\n Call 843-875-1841");
 });
 
 var port = Number(process.env.PORT || 5000);
